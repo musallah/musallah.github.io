@@ -6,17 +6,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Find and tag praying spaces near you">
+    <meta name="author" content="Jay">
+    <meta name="keywords" content="Musallah, App, iOS, Android">
 
-    <title>Musallah App</title>
+    <title>RSOC</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/musallah.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -26,34 +34,254 @@
 
 </head>
 
-<body>
-        <!-- Navigation -->
-    <nav class="navbar  navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                
-                <a class="navbar-brand topnav" href="#"> <img class="brand" alt="Musallah" src="img/Icon-40.png"></a>
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Musallah</a>
             </div>
-            
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#findpage">Find</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#addpage">Add</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#aboutpage">Choose</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#bonuspage">Bonus</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#downloadpage">Download App</a>
+                    </li>
+                </ul>
+            </div>
             <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-fluid -->
     </nav>
 
+    <!-- Header -->
+    <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 col-xs-offset-1 col-sm-offset-3 col-md-offset-1 col-lg-offset-1">
+                <img id="home-phone" src="img/home-phone.png" height="731" width="338">
+            </div>
+            <!-- Main Text -->
+            <div class="col-xs-10 col-sm-7 col-md-5 col-lg-5 col-xs-offset-1 col-sm-offset-3 col-md-offset-1 col-lg-offset-1 ">
+                <div class="intro-text">
+                    <div class="intro-heading">Musallah</div>
+                    <div class="intro-lead-in">Find and Tag Praying spaces near you</div>
+                    <a href="#findpage" class="page-scroll btn btn-xl">Learn More</a>
+                </div>
+             </div>   
+           </div>
+          </div>
+        </div>7
+    </header>
 
-
-    <!-- Page Content -->
-    <div class="container">
-        <div class="intro-header">
+    <!-- Services Section -->
+    <section id="findpage">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                  <div class="intro-message">
-                      <h1>Download the app</h1>
-                          <h2>Musallah is a location based app for the Muslim community</h2>
-                          <p>It allows users to find or create different types of locations/resources that Muslims are typically looking for.</p>
-                        
-                       <section>
+                    <h2 class="section-heading">Find a space</h2>
+                    <h3 class="section-subheading text-muted">It's pretty easy!</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div id="add-feature-text"class="col-md-3 col-md-offset-2">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-square fa-stack-2x text-primary"></i>
+                        <i class="fa fa-search fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Search our map</h4>
+                    <p>Once you've logged in or signed up, you can instantly access
+                        the curated list of useful islamic spaces around you.</p>
+                </div>
+                <div class="col-md-6">
+                     <img id="home-phone" src="img/find/add-phone.png" height="599" width="325">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="addpage" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Add a location</h2>
+                    <h3 class="section-subheading text-muted">A quick How-to Tutorial in 3 simple steps!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-sm-3 col-md-offset-2 col-sm-offset-2 ">
+                    <img id="tag-phone" src="img/add/tag-phone.png" class="img-responsive">                   
+                </div>
+                
+                <div class="col-md-4 col-sm-6">
+                    <!-- INNER TEXT -->
+                    <div class="row">
+                       <div class="col-md-12 col-sm-12">
+                        <h3>1. Click 'add' to insert a location <h3>
+                           <p> Move the map around to focus the cross-hair on the address at which you want to create the new entry. </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                       <div class="col-md-12 col-sm-12">
+                        <h3>2. Provide important details <h3>
+                           <p> Provide a name and all the important details of the location. If this location is Musallah or a mosque, click on Prayer room to choose from different options.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                       <div class="col-md-12 col-sm-12">
+                        <h3>3. Tap save and you're done! <h3>
+                           <p> Once you save your information, a new pin will show up on the map at the location. Please note that for every location you create, you can edit it any time by clicking the  pin on the map.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="aboutpage">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Choose your space</h2>
+                    <h3 class="section-subheading text-muted">With Musallah, you can find and tag a bunch of useful spaces. </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                       <div class="media media-left feature">
+                            
+                                <img src="img/about/prayer.png" class="pull-right">
+                            
+                            <div class="media-body">
+                                <h3 class="media-heading">Prayer Room</h3>
+                                
+                            </div>
+                        </div>
+
+                         <div class="media media-left feature">
+                           
+                                <img src="img/about/musallah.png" class="pull-right">
+                           
+                            <div class="media-body">
+                                <h3 class="media-heading">Islamic Organization</h3>
+                                
+                            </div>
+                        </div>
+
+                         <div class="media media-left feature">
+                            
+                                <img src="img/about/woman.png" class="pull-right">
+                            
+                            <div class="media-body">
+                                <h3 class="media-heading">Islamic Clothing</h3>
+                                
+                            </div>
+                        </div>                        
+                    </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <img src="img/about/explore-phone.png" class="img-responsive" alt="">
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                        <div class="media feature">
+                            
+                                <img src="img/about/food.png" class="pull-left">
+                            
+                            <div class="media-body">
+                                <h3 class="media-heading">Halal Food</h3>
+                                
+                            </div>
+                        </div>  
+
+                        <div class="media feature">
+                            
+                                <img src="img/about/book.png" class="pull-left">
+                           
+                            <div class="media-body">
+                                <h3 class="media-heading">Arabic or Quran Teacher</h3>
+                                
+                            </div>
+                        </div>  
+
+                        <div class="media feature">
+                            
+                                <img src="img/about/mosque.png" class="pull-left">
+                            
+                            <div class="media-body">
+                                <h3 class="media-heading">Mosque</h3>
+                               
+                            </div>
+                        </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="bonuspage" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Bonus Features </h2>
+                    <h3 class="section-subheading text-muted">For convenience, you can also find "prayer timings" and "Qibla direction" on the go!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                  
+                </div>
+                <div class="col-sm-4">
+                    <img id="bonus_phone" src="img/bonus/compass_prayer_phone.png" class="img-responsive">
+                </div>
+                <div class="col-sm-4">
+                   
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+
+
+    <section id="downloadpage">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Download our FREE app on iOS and Android</h2>
+                 
                             <ul class="list-inline">
                                 <li>
                                     <a href="https://itunes.apple.com/us/app/musallah-prayer-app/id981701628?mt=8" class="apple-store">Apple Store</a>
@@ -63,21 +291,52 @@
                                     <a href="https://play.google.com/store/apps/details?id=com.akira21.vault.musallah" class="google-play">Google Play</a>
                                 </li>
                             </ul>
-                        </section>
-                  </div>
+                                         
                 </div>
             </div>
-        <!-- /.row -->
-      </div>
-    </div>
-    <!-- /.container -->
+        </div>
+    </section>
 
-    <footer></footer>
-    <!-- jQuery Version 1.11.1 -->
-    <script src="js/jquery.js"></script>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Moose Jaw LLC</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        
+                        <li><a href="https://www.facebook.com/pages/Musallah/968605066483118"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+
+    </footer>
+
+    
+
+   
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+  
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
 
 </body>
 
