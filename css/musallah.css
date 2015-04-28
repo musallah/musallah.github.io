@@ -300,14 +300,14 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background: #EB76C4;
-    background: -moz-linear-gradient(-45deg, #EB76C4 0%, #B30711 100%);
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #EB76C4), color-stop(100%, #B30711));
-    background: -webkit-linear-gradient(-45deg, #EB76C4 0%, #B30711 100%);
-    background: -o-linear-gradient(-45deg, #EB76C4 0%, #B30711 100%);
-    background: -ms-linear-gradient(-45deg, #EB76C4 0%, #B30711 100%);
-    background: linear-gradient(-45deg, #EB76C4 0%, #B30711 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EB76C4, endColorstr=#B30711, GradientType=1);
+    background: #EB7683;
+    background: -moz-linear-gradient(-45deg, #EB7683 0%, #B30711 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #EB7683), color-stop(100%, #B30711));
+    background: -webkit-linear-gradient(-45deg, #EB7683 0%, #B30711 100%);
+    background: -o-linear-gradient(-45deg, #EB7683 0%, #B30711 100%);
+    background: -ms-linear-gradient(-45deg, #EB7683 0%, #B30711 100%);
+    background: linear-gradient(-45deg, #EB7683 0%, #B30711 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EB7683, endColorstr=#B30711, GradientType=1);
 }
 
 header .intro-text {
