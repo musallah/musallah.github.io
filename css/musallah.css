@@ -758,6 +758,10 @@ section#downloadpage .text-danger {
     color: #e74c3c;
 }
 
+section#downloadpage  h3 {
+    color: #fff;
+}
+
 footer {
     padding: 25px 0;
     text-align: center;
@@ -766,8 +770,17 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Roboto ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #B30711;
+}
+
+footer span.contact {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+    color: #B30711;
 }
 
 footer span.disclaimer {
